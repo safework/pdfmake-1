@@ -174,14 +174,6 @@ Document.prototype.getBuffer = function(cb, options) {
 
 module.exports = {
 	createPdf: function(docDefinition) {
-			return new Document(docDefinition, window.pdfMake.fonts, window.pdfMake.vfs);
+		return new Document(docDefinition, window.pdfMake.fonts, window.pdfMake.vfs);
 	}
 };
-
-// module.exports = {
-// 	createPdf: function(docDefinition) {
-// 		if (canCreatePdf()) {
-// 			return new Document(docDefinition, window.pdfMake.fonts, window.pdfMake.vfs);
-// 		}
-// 	}
-// };

@@ -21,20 +21,18 @@
 	],
 	"license": "MIT",
 	"ignore": [
-		"**/.*",
-		"bower.json",
-		"composer.json",
-		"Gruntfile.js",
-		"gulpfile.js",
-		"package.json",
-		"README.md",
-		"webpack.config.js",
-		"dev-playground",
-		"examples",
-		"libs",
-		"node_modules",
-		"src",
-		"test-env",
-		"tests"
-	]
+    "**/.*",
+    "Gruntfile.js",
+    "dev-playground",
+    "gulpfile.js",
+    "webpack.config.js",
+    "README.md",
+    "bootstrap",
+    "bower.json",
+    "examples",
+    "node_modules",
+    "package.json",
+    "src",
+    "tests"
+  ]
 }
