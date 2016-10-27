@@ -7,7 +7,9 @@ module.exports = {
   output: {
     path: path.join(__dirname, './build'),
     filename: 'pdfmake.js',
-    libraryTarget: 'umd'
+    name: 'pdfMake',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   resolve: {
     alias: {
