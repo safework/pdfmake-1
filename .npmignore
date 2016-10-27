@@ -2,7 +2,5 @@
 docs/
 examples/
 tests/
-src/
-dev-playground/
-node_modules/
+src/browser-extensions/
 .DS_Store
