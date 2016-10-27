@@ -74875,7 +74875,7 @@
 /* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* FileSaver.js
+	var __WEBPACK_AMD_DEFINE_RESULT__;/* FileSaver.js
 	 * A saveAs() FileSaver implementation.
 	 * 1.3.2
 	 * 2016-06-16 18:25:19
@@ -74908,7 +74908,7 @@
 				var event = new MouseEvent("click");
 				node.dispatchEvent(event);
 			}
-			, is_safari = /constructor/i.test(view.HTMLElement)
+			, is_safari = /constructor/i.test(view.HTMLElement) || view.safari
 			, is_chrome_ios =/CriOS\/[\d]+/.test(navigator.userAgent)
 			, throw_outside = function(ex) {
 				(view.setImmediate || view.setTimeout)(function() {
@@ -75059,9 +75059,9 @@
 	if (typeof module !== "undefined" && module.exports) {
 	  module.exports.saveAs = saveAs;
 	} else if (("function" !== "undefined" && __webpack_require__(112) !== null) && (__webpack_require__(113) !== null)) {
-	  !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+	  !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
 	    return saveAs;
-	  }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  }.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	}
 
 
