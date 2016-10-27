@@ -4,6 +4,5 @@ examples/
 tests/
 src/
 dev-playground/
-libs/
 node_modules/
 .DS_Store
