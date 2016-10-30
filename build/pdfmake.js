@@ -85,14 +85,6 @@ return /******/ (function(modules) { // webpackBootstrap
 		this.vfs = vfs;
 	}
 
-	function canCreatePdf() {
-		// Ensure the browser provides the level of support needed
-		if ( ! Object.keys ) {
-			return false;
-		}
-		return true;
-	}
-
 	Document.prototype._createDoc = function(options, callback) {
 		var printer = new PdfPrinter(this.fonts);
 		printer.fs.bindFS(this.vfs);
