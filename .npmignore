@@ -9,6 +9,7 @@ build/pdfmake.min.js
 build/pdfmake.min.js.map
 .jshintrc
 .travis.yml
+.npmignore
 bower.json
 Gruntfile.js
 gulpfile.js
