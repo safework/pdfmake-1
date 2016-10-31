@@ -7,4 +7,10 @@ dev-playground/
 libs/FileSaver.js/demo/
 build/pdfmake.min.js
 build/pdfmake.min.js.map
+.jshintrc
+.travis.yml
+bower.json
+Gruntfile.js
+gulpfile.js
+webpack.config.js
 .DS_Store
