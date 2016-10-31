@@ -33,6 +33,8 @@
     "node_modules",
     "package.json",
     "src",
-    "tests"
+    "tests",
+		"build/pdfmake.min.js"
+		"build/pdfmake.min.js.map"
   ]
 }
